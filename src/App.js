@@ -1,11 +1,16 @@
 import Omelette from "./images/image-omelette.jpeg";
 import "./App.css";
-function Container() {
+
+function App() {
   return (
     <div className="mainContainer">
       <img className="omeletteImage" src={Omelette} alt="omelette pic" />
       <div className="container">
-       <img className="omeletteImageDesktop" src={Omelette} alt="omelette pic" />
+        <img
+          className="omeletteImageDesktop"
+          src={Omelette}
+          alt="omelette pic"
+        />
         <h1>Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette
@@ -102,4 +107,4 @@ function Container() {
     </div>
   );
 }
-export default Container;
+export default App;
